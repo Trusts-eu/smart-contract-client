@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "smart-contract-client"
+version = "0.1.0"
+description = ""
+authors = ["Stefan Gindl <stefan.gindl@researchstudio.at>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipykernel = "^6.13.0"
+jupyterlab = "^3.3.4"
+nose = "^1.3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
